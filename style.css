@@ -1,0 +1,20 @@
+/* Yeh container saare boxes ko 8x8 grid mein set karega */
+.container {
+  display: grid;
+  grid-template-columns: repeat(8, 100px);
+  grid-template-rows: repeat(8, 100px);
+  width: 800px;
+  height: 800px;
+}
+
+.white {
+  background-color: #f7f6f5;
+  height: 100px;
+  width: 100px;
+}
+ 
+.black {
+  background-color: #100f0f;
+  height: 100px;
+  width: 100px;
+}
